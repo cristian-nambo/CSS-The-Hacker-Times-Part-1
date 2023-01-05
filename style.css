@@ -1,1 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+body {
+    border-style: #eee;
+    background-color: white;
+    box-shadow: #ddd;
+    font-family: source sans pro;
+}
+
+nav li{
+    list-style-type: none; /* this is to delete bullet points, write it down or memorize it, seems usefull everywhere. */
+    display: inline-block;
+    margin: auto; /* since we did these out of order we did not notice how margin affected the look */
+    padding: 2px; /* adding space in between each list */
+}
+nav { /* it was best to start a new line that pertains to the whole navigation rather then the list itself...looks horrible otherwise */
+    border-top: 2px solid black;  /* as a rule of thumb choose thickness first then the type or line finally the color, these do no look like the picture but will do for the point. */
+    border: 2px solid black;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.more-articles {
+    display: inline-block;
+    /* width: 100px; */
+    text-align: center;
+    border-top: black;
+}
+
+.newspaper-container{ /* This should be placed at the top ideally, took me a while to realize how to call a specific class. Next time read the HTML and look for these hints. */
+    width: 700px;
+    border: groove;
+    border-radius: 1em;
+    box-shadow: 1em #ddd;
+    padding: 5px;
+}
+/* Finished with the acceptance criteria for the first article still need to figure out how to make the two small articles stay side by side, 
+definetly need help here. Advice would be 150% taken. */
+
